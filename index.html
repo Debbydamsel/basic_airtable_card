@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtable card</title>
+    <style>
+        /* body, html {
+            height: 100%;
+            width: 100%;
+        } */
+        .card {
+            background-color: powderblue;
+            border-radius: 10px;
+            border: 1px solid powderblue;
+            /* height: 100%; */
+            width: 40%;
+            margin: auto;
+            
+        
+        }
+        .header {
+            background-color: blue;
+            padding: 10px 50px 10px 15px;
+            font-size: 1em;
+            color: white;
+            font-weight: bold;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            /* border-: 10px; */
+        }
+        .pro {
+            padding: 10px;
+            font-size: 1.4em;
+        }
+        
+        .amount {
+            font-size: 3em;
+            /* float: left; */
+        }
+        .btn {
+            margin: auto;
+            text-align: center;
+            border: 1px solid blue;
+            border-radius: 50px;
+            width: 70%;
+            padding: 20px;
+            color: white;
+            background-color: blue;
+            font-weight: bold;
+            /* padding: 100px; */
+            /* width: 80%; */
+        }
+        li {
+            list-style-type: none;
+        }
+        .lists {
+            padding: 10px;
+            font-weight: bold;
+        }
+        li { 
+            margin-right: 20px;
+        }
+        
+        .span-2 {
+            font-weight: bold;
+        }
+        /* .parent {
+            width: 100%;
+        } */
+        .child {
+            display: inline-block;
+        }
+        .child:nth-child(2) {
+            margin: -60px 0px 0px 30px;
+            font-size: 30px;
+            /* padding: 20px; */
+        }
+        .child:nth-child(1) {
+            margin-left: 20px;
+            font-size: 30px;
+        }
+        .para {
+            padding: 20px;
+            margin-left: -20px;
+        }
+        .monthly-bill {
+            font-size: 20px;
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h3>Most Popular</h3>
+        </div>
+        <div class="pro">
+            <h1>Pro</h1>
+            <p class="para">For teams and departments who need to build connected apps to power their most important processes</p>
+        </div>
+        <div class="parent">
+            <div class="child">
+                <h1>$20 </h1>
+                
+            </div>
+            <div class="child">
+                per seat /month billed annually
+            </div>
+        </div>
+        <p class="monthly-bill"><span class="span-2">$24</span> billed monthly</p>
+        <div class="btn">Try for free</div>
+        <div class="lists">
+
+            <p>Everything in Plus, plus</p>
+            <ul>
+                <li>✔ 10 extentions per base</li>
+                <li>✔ 7 sync integrations including jida cloud</li>
+                <li>✔ 50,000 records per base</li>
+                <li>✔ 20GB of attachments per base</li>
+                <li>✔ Gantts & Timeline Views</li>
+                <li>✔ Granular interface permissions</li>
+                <li>✔ 1-year revision & snapshot history</li>
+                <li>✔ Personal & locked views</li>
+                <li>✔ Fields & tables editing permissions</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
